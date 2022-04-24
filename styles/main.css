@@ -11,16 +11,12 @@
     --background: #072227 ;
     --warning: #151D3B;
     --warning-brd: #FFD32D;
-    --header: ;
 
     /* Fuentes */
     --font-general: 'Roboto', sans serif;
     --font-logo: ; 
-    --font-title: ;
     --font-text: 'Lato', sans-serif;;
-    --font-button: ;
     
-
     /* Colores botones */
     --btn-accept: #019267;
     --btn-cancel: #DA0037;
@@ -98,7 +94,8 @@ body {
 
 .busqueda-contendor {
     border:2px solid var(--primary);
-    border-radius: 35px;
+    border-bottom-width: 4px;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #fff;
     display: inline-block;
@@ -120,7 +117,7 @@ body {
     color: white;
     padding: 15px;
     border: none;
-    border-radius: 50%;
+    border-radius: 20%;
     transition: transform ease .2s;
 }
 
@@ -144,7 +141,6 @@ body {
     border: 4px solid var(--primary);
     border-bottom-width: 8px;
     padding: 20px;
-    
 }
 
 .aviso {
@@ -244,7 +240,7 @@ body {
 /* Tablas */
 
 .tabla {
-    font-size: 30px;
+    font-size: 1.5em;
     border-collapse: collapse;
     border-radius: 1em;
     width: 80%;
@@ -267,7 +263,6 @@ body {
     background-color: #00C897;
 }
 
-
 /* Formularios */
 
 .formulario{
@@ -275,7 +270,7 @@ body {
 }
 
 .form-opt {
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     margin: 20px auto;
@@ -286,7 +281,7 @@ body {
     border-radius: 20px;
     border: 2px solid var(--primary);
     border-bottom-width: 4px;
-    font-size: 30px;
+    font-size: 1.2em;
     padding: 10px;
     
 }
@@ -302,7 +297,15 @@ body {
 
 /* Enlaces */
 
+.enlaces {
+    width: 98%;
+}
 .enlace {
     color: var(--secundary);
-    
+}
+
+/* Contenedor */
+
+.contenedor {
+    width: 98%;
 }
